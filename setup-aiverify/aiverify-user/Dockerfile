@@ -17,11 +17,11 @@ RUN apt-get update && apt-get install -y nodejs
 # Install python 3.10
 
 RUN apt update
-RUN apt install -y python3.10
+RUN apt install -y python3
 RUN python3 --version
 
 # Install virtualenv
-RUN apt install -y python3.10-venv
+RUN apt install -y python3-venv
 
 # Install Chromium
 
